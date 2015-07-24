@@ -51,6 +51,7 @@ public class GestionnaireDeCompteBancaire {
     int val = source.retirer(montant);
     if (val == 0) {
       // La source n'a plus assez d'argent !!
+        
       // Il faudrait afficher un message d'erreur.
       return;
     }
